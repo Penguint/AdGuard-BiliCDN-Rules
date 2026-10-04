@@ -14,6 +14,7 @@
 ||*.jdcloudcdn.com^$important
 
 # 可选：强制使用高质量 Mirror CDN（替换为阿里云/腾讯云等）
+@@||upos-sz-mirroralib.bilivideo.com^$important
 @@||upos-sz-mirrorali.bilivideo.com^$important
 @@||upos-sz-mirrorcos.bilivideo.com^$important
 @@||upos-sz-mirrorhw.bilivideo.com^$important
