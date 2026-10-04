@@ -18,13 +18,6 @@
 
 ## 🛠️ 快速使用  
 ### 1. AdGuard Home 用户  
-在 AdGuard Home 的 DNS 黑名单中添加以下自定义订阅链接：
+将以下规则添加到 **自定义过滤列表**：  
 ```plaintext
-https://raw.githubusercontent.com/Penguint/AdGuard-BiliCDN-Rules/refs/heads/codex/custom-rules/adguard.txt
-```
-
-本分支额外屏蔽以下 CDN：
-- 视频：`upos-hz-mirrorakam.akamaized.net`
-- 音频：`upos-sz-mirrorcosov.bilivideo.com`
-
-更新订阅后，清除 AdGuard Home 和设备的 DNS 缓存，再重新加载视频。可在 AdGuard Home 查询日志中确认这两个域名被拦截。屏蔽会阻止连接这些 CDN，是否能切换到其他节点取决于 Bilibili 播放器的回退行为。
+https://raw.githubusercontent.com/Penguint/AdGuard-BiliCDN-Rules/refs/heads/custom-rules/adguard.txt

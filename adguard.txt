@@ -1,4 +1,3 @@
-# 屏蔽截图中的视频和音频 CDN
 ||upos-hz-mirrorakam.akamaized.net^$important
 ||upos-sz-mirrorcosov.bilivideo.com^$important
 
